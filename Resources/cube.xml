@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>0a9e3214-f103-4123-af39-7abea89472e4</id>
+   <resourceType>CSV</resourceType>
+   <organization>u of idaho</organization>
+   <fileName>cube.csv</fileName>
+   <resourceName>cube.csv</resourceName>
+   <description>cube for view</description>
+   <aggregateName>CSV-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;cube&amp;#x20;elements&gt;&lt;zaxis&gt;&lt;/zaxis&gt;&lt;yaxis&gt;&lt;/yaxis&gt;&lt;H&gt;&lt;/H&gt;&lt;Na&gt;&lt;/Na&gt;&lt;K&gt;&lt;/K&gt;&lt;/cube&amp;#x20;elements&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>zaxis</name>
+      <label>zaxis</label>
+      <type>string</type>
+      <description>element</description>
+   </outAttributes>
+   <outAttributes>
+      <name>yaxis</name>
+      <label>yaxis</label>
+      <type>string</type>
+      <description>element</description>
+   </outAttributes>
+   <outAttributes>
+      <name>H</name>
+      <label>H</label>
+      <type>string</type>
+      <description>element</description>
+   </outAttributes>
+   <outAttributes>
+      <name>Na</name>
+      <label>Na</label>
+      <type>string</type>
+      <description>element</description>
+   </outAttributes>
+   <outAttributes>
+      <name>K</name>
+      <label>K</label>
+      <type>string</type>
+      <description>element</description>
+   </outAttributes>
+</resource>

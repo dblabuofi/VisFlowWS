@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>cc8062fd-6e6e-438b-8d78-27df1a05b418</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>gsspURLs.csv</fileName>
+   <resourceName>gsspURLs.csv</resourceName>
+   <description>GSSP URL</description>
+   <aggregateName>GSSP-databases</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;gssp&amp;#x20;URLs&gt;&lt;term&gt;&lt;/term&gt;&lt;CssParameter&gt;&lt;/CssParameter&gt;&lt;wiki&gt;&lt;/wiki&gt;&lt;picture&gt;&lt;/picture&gt;&lt;/gssp&amp;#x20;URLs&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>term</name>
+      <label>term</label>
+      <type>string</type>
+      <description>gssp name</description>
+   </outAttributes>
+   <outAttributes>
+      <name>CssParameter</name>
+      <label>CssParameter</label>
+      <type>string</type>
+      <description>gssp color</description>
+   </outAttributes>
+   <outAttributes>
+      <name>wiki</name>
+      <label>wiki</label>
+      <type>string</type>
+      <description>url to gssp website</description>
+   </outAttributes>
+   <outAttributes>
+      <name>picture</name>
+      <label>picture</label>
+      <type>string</type>
+      <description>url to gssp picture website</description>
+   </outAttributes>
+</resource>

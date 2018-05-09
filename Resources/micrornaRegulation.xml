@@ -1,0 +1,41 @@
+ <resource>
+        <id>2a555451-58d2-4e1f-b134-ffaf8670108e</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>micrornaRegulation.csv</resourceName>
+        <fileName>micrornaRegulation.csv</fileName>
+		<aggregateName>GENE-resources</aggregateName>
+		<url/>
+		<description>
+		micrornaRegulation
+		</description>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;micrornaRegulation&gt;
+					&lt;geneID&gt;&lt;/geneID&gt;
+					&lt;miRNA&gt;&lt;/miRNA&gt;
+					&lt;targetSites&gt;&lt;/targetSites&gt;
+			&lt;/micrornaRegulation&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<outAttributes>
+			<label>geneID</label>
+			<name>geneID</name>
+			<type>string</type>
+			<description>gene id</description>
+		</outAttributes>
+		<outAttributes>
+			<label>miRNA</label>
+			<name>miRNA</name>
+			<type>string</type>
+			<description>miRNA</description>
+		</outAttributes>
+		<outAttributes>
+			<label>targetSites</label>
+			<name>targetSites</name>
+			<type>string</type>
+			<description>website</description>
+		</outAttributes>
+</resource>

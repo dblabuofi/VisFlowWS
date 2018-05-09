@@ -1,0 +1,63 @@
+ <resource>
+        <id>b661ff11-f7af-42b8-ae44-c12d85d50207</id>
+        <resourceType>HTTPS</resourceType>
+        <organization>Google</organization>
+        <resourceName>Google Geocoding</resourceName>
+		<fileName>Google Geocoding.xml</fileName>
+		<description>Google Geocoding API
+		</description>
+		<aggregateName>Google-Geocoding</aggregateName>
+		<url>https://maps.googleapis.com/maps/api/geocode/json</url>
+		<urlExample>https://maps.googleapis.com/maps/api/geocode/json?address=,+Wexford,+IE</urlExample>
+		<suggestOutputFileName>geocoding.csv</suggestOutputFileName>
+		<method>GET</method>
+		<attributes>
+			<label>address</label>
+			<name>address</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>,+Wexford,+IE</example>
+			<attributeType>input</attributeType>
+			<description></description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>key</label>
+			<name>key</name>
+			<value>AIzaSyANITdt97MIEEKObYI1fagCZDTXfPqY16Q</value>
+			<type>string</type>
+			<required>true</required>
+			<shown>false</shown>
+			<description>KEY</description>
+			<from>default</from>
+		</attributes>
+		<outAttributes>
+			<label>lat</label>
+			<name>lat</name>
+			<type>string</type>
+			<descrption>latitude</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>lng</label>
+			<name>lng</name>
+			<type>string</type>
+			<descrption>lngtitude</descrption>
+		</outAttributes>
+		<methodReturnFileType>HTML</methodReturnFileType>
+		<urlReturnFileType>JSON</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;Google&#x20;Geocoding&gt;
+				&lt;lat&gt;&lt;/lat&gt;
+				&lt;lng&gt;&lt;/lng&gt;
+			&lt;/Google&#x20;Geocoding&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<!-- <wrapper> -->
+			<!-- <wrapperName>myJSONExtractor</wrapperName> -->
+			<!-- <headers>lat</headers> -->
+			<!-- <headers>lng</headers> -->
+		<!-- </wrapper> -->
+</resource>

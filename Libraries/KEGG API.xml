@@ -1,0 +1,26 @@
+<library>
+        <id>4a8bcdee-08b0-4feb-8838-715ca90fedd6</id>
+		<type>library</type>
+        <libraryName>KEGG API</libraryName>
+		<libraryType>web</libraryType>
+        <organization>Kanehisa Laboratories</organization>
+        <location>http://rest.kegg.jp/</location>
+		<alias></alias>
+        <description>
+			KEGG API (application programming interface) allows customization of KEGG-based analysis, such as for searching and computing biochemical pathways in cellular processes or analyzing the universe of genes in the completely sequenced genomes.
+        </description>
+		<function>
+			<functionName>http://rest.kegg.jp/conv/hsa/</functionName>
+			<functionId>462d1138-1950-4ba0-916f-0cf57eea6b04</functionId>
+			 <description>
+			convert hsa id to pathway id
+        </description>
+		</function>
+		<function>
+			<functionName>http://rest.kegg.jp/link/pathway/</functionName>
+			<functionId>07eb2130-f97c-49d2-aa67-49574dec3af4</functionId>
+            <description>
+			convert ncbi-geneid to hsa id
+        </description>   
+		</function>
+</library>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>dd376291-1e16-4430-97a8-7e6bbef8bf58</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>nums.csv</fileName>
+   <resourceName>nums.csv</resourceName>
+   <description></description>
+   <aggregateName>CSV-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;nums&gt;&lt;num&gt;&lt;/num&gt;&lt;id&gt;&lt;/id&gt;&lt;/nums&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>num</name>
+      <label>num</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+   <outAttributes>
+      <name>id</name>
+      <label>id</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+</resource>

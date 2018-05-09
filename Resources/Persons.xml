@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>0744f419-be35-4f5a-abed-70f528e4a420</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>Persons.csv</fileName>
+   <resourceName>Persons.csv</resourceName>
+   <description>person information</description>
+   <aggregateName>EMPLOYEE-databases</aggregateName>
+   <url></url>
+   <urlReturnFileName/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;Persons&gt;&lt;PersonID&gt;&lt;/PersonID&gt;&lt;LastName&gt;&lt;/LastName&gt;&lt;FirstName&gt;&lt;/FirstName&gt;&lt;Address&gt;&lt;/Address&gt;&lt;City&gt;&lt;/City&gt;&lt;/Persons&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>PersonID</name>
+      <label>PersonID</label>
+      <type>int</type>
+	  <description>persion ID</description>
+   </outAttributes>
+   <outAttributes>
+      <name>LastName</name>
+      <label>LastName</label>
+      <type>string</type>
+	  <description>Last name</description>
+   </outAttributes>
+   <outAttributes>
+      <name>FirstName</name>
+      <label>FirstName</label>
+      <type>string</type>
+	  <description>first name</description>
+   </outAttributes>
+   <outAttributes>
+      <name>Address</name>
+      <label>Address</label>
+      <type>string</type>
+	  <description>address</description>
+   </outAttributes>
+   <outAttributes>
+      <name>City</name>
+      <label>City</label>
+      <type>string</type>
+	  <description>city</description>
+   </outAttributes>
+</resource>

@@ -1,0 +1,41 @@
+ <resource>
+        <id>4c94a18f-dd2b-4d64-86c3-91695cffa5df</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>genesright.csv</resourceName>
+        <fileName>genesright.csv</fileName>
+		<url/>
+		<aggregateName>GENE-resources</aggregateName>
+		<description>
+		genes id with max and min
+		</description>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;genes&gt;
+					&lt;geneID&gt;&lt;/geneID&gt;
+					&lt;max&gt;&lt;/max&gt;
+					&lt;min&gt;&lt;/min&gt;
+			&lt;/genes&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<outAttributes>
+			<label>geneID</label>
+			<name>geneID</name>
+			<type>string</type>
+			<descrption>gene id</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>max</label>
+			<name>max</name>
+			<type>string</type>
+			<descrption>max value</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>min</label>
+			<name>min</name>
+			<type>string</type>
+			<descrption>min value</descrption>
+		</outAttributes>
+</resource>

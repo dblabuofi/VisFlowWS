@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>213e5a4d-d9ee-478f-87d4-f685647cc632</id>
+   <resourceType>XML</resourceType>
+   <organization>u of idaho</organization>
+   <fileName>gene.xml</fileName>
+   <resourceName>gene.xml</resourceName>
+   <description>gene xml file</description>
+   <aggregateName>GENE-resources</aggregateName>
+   <url/>
+   <urlReturnFileName/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>
+   &lt;genes&gt;
+		&lt;row&gt;
+			&lt;gene&gt;
+			&lt;/gene&gt;
+			&lt;id&gt;
+			&lt;/id&gt;
+		&lt;/row&gt;
+	&lt;/genes&gt;</urlReturnFileSchema>
+   <methodReturnFileType>XML</methodReturnFileType>
+   <urlReturnFileType>XML</urlReturnFileType>
+   <outAttributes>
+      <name>gene</name>
+      <label>gene</label>
+      <type>int</type>
+	  <description>has gene id</description>
+   </outAttributes>
+   <outAttributes>
+      <name>id</name>
+      <label>id</label>
+      <type>int</type>
+	  <description>id</description>
+   </outAttributes>
+</resource>

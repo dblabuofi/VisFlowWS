@@ -1,0 +1,19 @@
+<library>
+    <id>6085465b-9188-448d-af95-75091fb88fb6</id>
+	<type>library</type>
+    <libraryName>Burrows-Wheeler Aligner (BWA)</libraryName>
+	<libraryType>executable</libraryType>
+    <organization>Wellcome Trust Sanger Institute</organization>
+    <location>C:\cygwin64\home\jupiter\bwa\</location>
+	<alias>bwa</alias>
+    <description>
+	BWA is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome. It consists of three algorithms: BWA-backtrack, BWA-SW and BWA-MEM. The first algorithm is designed for Illumina sequence reads up to 100bp, while the rest two for longer sequences ranged from 70bp to 1Mbp. BWA-MEM and BWA-SW share similar features such as long-read support and split alignment, but BWA-MEM, which is the latest, is generally recommended for high-quality queries as it is faster and more accurate. BWA-MEM also has better performance than BWA-backtrack for 70-100bp Illumina reads.
+    </description>
+	<function>
+		<functionName>bwa.exe</functionName>
+		<functionId>772e1c3c-aac5-486e-96bc-785c5b3bd801</functionId>
+		<description>
+			Burrows-Wheeler Aligner function
+        </description>
+	</function>
+</library>

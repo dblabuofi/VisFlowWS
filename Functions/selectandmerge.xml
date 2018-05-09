@@ -1,0 +1,63 @@
+<function>
+	<type>function</type>
+	<libraryName>Select and merge function</libraryName>
+	<libraryId>5fa9d88a-701a-4a52-9ca1-1732ee037a17</libraryId>
+	<organization>University of Idaho</organization>
+	<id>065c2c7b-162c-49ec-b61e-f86da670adf7</id>
+	<functionName>selectandmerge.py</functionName>
+	<functionType>python executable</functionType>
+	<location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+	<description>
+		Select and merge function  
+    </description>
+	<aggregateName>COL-functions</aggregateName>
+	<attributes>
+		<label>outFile</label>
+		<name>-outFile</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>sparqlQuery.csv</example>
+		<description>output file</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>inputFile</label>
+		<name>-inputFile</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>title.csv</example>
+		<description>Input File Name</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>actionInput</label>
+		<name>-actionInput</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>ncib-geneid</example>
+		<description>Input</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>name</label>
+		<name>-name</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>ncbigeneid</example>
+		<description>attribute new name</description>
+		<from>default</from>
+	</attributes>
+	<urlReturnFileType>csv</urlReturnFileType>
+</function>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>fcde6826-36c5-423d-b793-2eb140cefc1c</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>gplateinputTest.csv</fileName>
+   <resourceName>gplateinputTest.csv</resourceName>
+   <description></description>
+   <aggregateName>GPlates-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;coordinates&gt;&lt;points&gt;&lt;/points&gt;&lt;time&gt;&lt;/time&gt;&lt;/coordinates&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>points</name>
+      <label>points</label>
+      <type>string</type>
+      <description>latitude and langtidute</description>
+   </outAttributes>
+   <outAttributes>
+      <name>time</name>
+      <label>time</label>
+      <type>double</type>
+      <description>time age</description>
+   </outAttributes>
+</resource>

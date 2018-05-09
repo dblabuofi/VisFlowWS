@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>4649d735-c2be-4825-89de-fc99e95e86ef</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>genesRepeat.csv</fileName>
+   <resourceName>genesRepeat.csv</resourceName>
+   <description></description>
+   <aggregateName>GENE-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;genes&gt;&lt;gene&gt;&lt;/gene&gt;&lt;id&gt;&lt;/id&gt;&lt;/genes&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>gene</name>
+      <label>gene</label>
+      <type>string</type>
+      <description>gene id</description>
+   </outAttributes>
+   <outAttributes>
+      <name>id</name>
+      <label>id</label>
+      <type>string</type>
+      <description>id</description>
+   </outAttributes>
+</resource>

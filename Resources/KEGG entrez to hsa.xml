@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>3765531b-1c13-4036-8537-abdfe6987943</id>
+   <resourceType>REST</resourceType>
+   <organization>U of Idaho</organization>
+   <fileName>KEGG entrez to hsa.xml</fileName>
+   <resourceName>KEGG entrez to hsa.xml</resourceName>
+   <description>KEGG entrez to hsa</description>
+   <aggregateName>KEGG-databases</aggregateName>
+   <urlReturnFileName/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;entrez&gt;&lt;ncbi&gt;&lt;/ncbi&gt;&lt;hsa&gt;&lt;/hsa&gt;&lt;/entrez&gt;</urlReturnFileSchema>
+   <methodReturnFileType>TEXT</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <url>http://rest.kegg.jp/conv/hsa/{gene}</url>
+   <urlExmaple>http://rest.kegg.jp/conv/hsa/ncbi-geneid:5211</urlExmaple>
+   <suggestOutputFileName>entrezhsa.csv</suggestOutputFileName>
+   <method>REST</method>
+   <attributes>
+      <label>gene</label>
+      <name>gene</name>
+      <type>String</type>
+      <value></value>
+      <required>TRUE</required>
+      <shown>TRUE</shown>
+      <attributeType>input</attributeType>
+      <example>ncbi-geneid:5211</example>
+      <description>nebi id</description>
+      <from>default</from>
+   </attributes>
+   <outAttributes>
+      <name>ncbi</name>
+      <label>ncbi</label>
+      <type>string</type>
+      <description>ncbi id</description>
+   </outAttributes>
+   <outAttributes>
+      <name>hsa</name>
+      <label>hsa</label>
+      <type>string</type>
+      <description>hsa id</description>
+   </outAttributes>
+</resource>

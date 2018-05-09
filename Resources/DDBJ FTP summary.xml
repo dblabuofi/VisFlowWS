@@ -1,0 +1,28 @@
+ <resource>
+        <id>d55909a1-371a-4c7a-81b2-5fd3fbb00459</id>
+        <resourceType>FTP</resourceType>
+        <organization>DNA Data Bank of Japan</organization>
+        <resourceName>DDBJ FTP summary</resourceName>
+		<fileName>DDBJ FTP summary.xml</fileName>
+		<description>
+		DNA Data Bank of Janpan FTP server summary file 
+		</description>
+		<url>ftp.ddbj.nig.ac.jp/ddbj_database/biosample/ddbj_summary.txt</url>
+		<urlExample></urlExample>
+		<method></method>
+		<aggregateName>BIO-databases</aggregateName>
+		<methodReturnFileType>TEXT</methodReturnFileType>
+		<urlReturnFileType>TEXT</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;ddbj_summary.txt&gt;
+				&lt;BioSample&#x20;ID&gt;&lt;/BioSample&#x20;ID&gt;
+				&lt;Released&gt;&lt;/Released&gt;
+				&lt;Updated&gt;&lt;/Updated&gt;
+			&lt;/ddbj_summary.txt&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>myWarpper</wrapperName>
+		</wrapper>
+</resource>

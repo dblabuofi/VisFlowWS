@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>a9415e2f-25b0-4ea1-9ad2-4ce04a7985a6</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>entrez.csv</fileName>
+   <resourceName>entrez.csv</resourceName>
+   <description></description>
+   <aggregateName>GENE-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;entrez&amp;#x20;ids&gt;&lt;entrez&gt;&lt;/entrez&gt;&lt;/entrez&amp;#x20;ids&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>entrez</name>
+      <label>entrez</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+</resource>

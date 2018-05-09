@@ -1,0 +1,19 @@
+<library>
+    <id>69044887-348f-4a40-ae4c-67d2e25b66a3</id>
+	<type>library</type>
+    <libraryName>GenomeAnalysisTK.jar</libraryName>
+	<libraryType>executable</libraryType>
+    <organization>GATK</organization>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\librarys\</location>
+	<alias>GenomeAnalysisTK</alias>
+    <description>
+	GATK, pronounced "Gee Ay Tee Kay" (not "Gat-Kay"), stands for GenomeAnalysisToolkit. It is a collection of command-line tools for analyzing high-throughput sequencing (HTS) data in formats such as SAM/BAM/CRAM and VCF, with a focus on variant discovery. The relevant file formats are defined in the hts-specs repository; see especially the SAM specification and the VCF specification.
+    </description>
+	<function>
+		<functionName>GenomeAnalysisTK.jar</functionName>
+		<functionId>1a20b90f-7843-415d-826c-0a25402a24a0</functionId>
+		<description>
+			GenomeAnalysisToolkit
+        </description>
+	</function>
+</library>

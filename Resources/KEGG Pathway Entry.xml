@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>22e2aafd-1c89-4dd9-8b84-f818232fd135</id>
+   <resourceType>REST</resourceType>
+   <organization>U of Idaho</organization>
+   <fileName>KEGG Pathway Entry.xml</fileName>
+   <resourceName>KEGG Pathway Entry</resourceName>
+   <description>Get KEGG pathway entry</description>
+   <aggregateName>KEGG-databases</aggregateName>
+   <urlReturnFileName/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;Pathway&amp;#x20;Entry&gt;&lt;description&gt;&lt;/description&gt;&lt;/Pathway&amp;#x20;Entry&gt;</urlReturnFileSchema>
+   <methodReturnFileType>TEXT</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <url>http://rest.kegg.jp/get/{pathway}</url>
+   <urlExmaple>http://rest.kegg.jp/get/hsa00010</urlExmaple>
+   <suggestOutputFileName>pathwayDesc.csv</suggestOutputFileName>
+   <method>REST</method>
+   <attributes>
+      <label>pathway</label>
+      <name>pathway</name>
+      <type>String</type>
+      <value></value>
+      <required>TRUE</required>
+      <shown>TRUE</shown>
+      <attributeType>input</attributeType>
+      <example>hsa00010</example>
+      <description>pathway description</description>
+      <from>default</from>
+   </attributes>
+   <outAttributes>
+      <name>description</name>
+      <label>description</label>
+      <type>string</type>
+      <description>description of pathway</description>
+   </outAttributes>
+</resource>

@@ -1,0 +1,39 @@
+<function>
+	<type>function</type>
+    <libraryName>North American Geogocial Knowledge Base</libraryName>
+	<libraryId>30a4e0bd-9d8d-49e2-9d2c-94de24dbdea1</libraryId>
+    <organization>University of Idaho</organization>
+	<id>30a4e0bd-9d8d-49e2-9d2c-94de24dbdea1</id>
+	<functionName>getGeologicalName.py</functionName>
+	<functionType>python executable</functionType>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+    <description>
+		Parse Geogocial age, get North American Geogocial Term back.
+    </description>
+	<aggregateName>NAGKB-functions</aggregateName>
+		<attributes>
+			<label>Age</label>
+			<name>-age</name>
+			<type>Integer</type>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>232.0</example>
+			<description>A Geogocial Age</description>
+			<from>default</from>
+		</attributes>
+	<attributes>
+			<label>File Name</label>
+			<name>-fileName</name>
+			<type>String</type>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>geoTerm.csv</example>
+			<description>Output File Name</description>
+			<from>default</from>
+		</attributes>
+	<urlReturnFileType/>
+</function>

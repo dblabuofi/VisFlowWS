@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>3254f8db-faee-4f8e-84d2-a6d17a7c88ca</id>
+   <resourceType>REST</resourceType>
+   <organization>KEGG</organization>
+   <fileName>KEGG link genes.xml</fileName>
+   <resourceName>GetListOfGenes</resourceName>
+   <description>KEGG link genes</description>
+   <aggregateName>KEGG-databases</aggregateName>
+   <urlReturnFileName/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <methodReturnFileType>TEXT</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <url>http://rest.kegg.jp/link/genes/{id}</url>
+	<urlExmaple>http://rest.kegg.jp/link/genes/ko:K00128</urlExmaple>
+	<suggestOutputFileName>keggGene.csv</suggestOutputFileName>
+	<method>REST</method>
+   <attributes>
+      <label>id</label>
+      <name>id</name>
+      <type>String</type>
+      <value></value>
+      <required>TRUE</required>
+      <shown>TRUE</shown>
+      <attributeType>input</attributeType>
+      <example>ko:K00128</example>
+      <description>gene id</description>
+      <from>default</from>
+   </attributes>
+   <outAttributes>
+		<label>ko</label>
+		<name>ko</name>
+		<type>string</type>
+		<description>ko</description>
+	</outAttributes>
+	<outAttributes>
+		<label>gene</label>
+		<name>gene</name>
+		<type>string</type>
+		<description>gene</description>
+	</outAttributes>
+   <urlReturnFileSchema>
+		&lt;KEGG&#x20;Genes&gt;
+			&lt;ko&gt;&lt;/ko&gt;
+			&lt;gene&gt;&lt;/gene&gt;
+		&lt;/KEGG&#x20;Genes&gt;
+	</urlReturnFileSchema>
+	<wrapper>
+			<wrapperName>textTableWrapper</wrapperName>
+			<separator>\t</separator>
+			<headers>ko</headers>
+			<headers>gene</headers>
+			<resultContainHeaderInfo>false</resultContainHeaderInfo>
+	</wrapper>
+</resource>

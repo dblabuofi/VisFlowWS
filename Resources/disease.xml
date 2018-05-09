@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>1e63e05d-d15e-4a6d-b84f-ca5e81e30f0b</id>
+   <resourceType>CSV</resourceType>
+   <organization>U of Idaho</organization>
+   <fileName>disease.csv</fileName>
+   <resourceName>disease.csv</resourceName>
+   <description>disease with genes</description>
+   <urlReturnFileName/>
+   <aggregateName>GENE-resources</aggregateName>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;diseases&gt;&lt;Disease&gt;&lt;/Disease&gt;&lt;Gene&gt;&lt;/Gene&gt;&lt;Definition&gt;&lt;/Definition&gt;&lt;website&gt;&lt;/website&gt;&lt;/diseases&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>Disease</name>
+      <label>Disease</label>
+      <type>string</type>
+      <description>disease id</description>
+   </outAttributes>
+   <outAttributes>
+      <name>Gene</name>
+      <label>Gene</label>
+      <type>string</type>
+      <description> gene id</description>
+   </outAttributes>
+   <outAttributes>
+      <name>Definition</name>
+      <label>Definition</label>
+      <type>string</type>
+      <description>disease definition</description>
+   </outAttributes>
+   <outAttributes>
+      <name>website</name>
+      <label>website</label>
+      <type>string</type>
+      <description>disease website</description>
+   </outAttributes>
+</resource>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>d77dcaa8-917d-448f-a4ad-cc896377acac</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>pathwayImage.csv</fileName>
+   <resourceName>pathwayImage.csv</resourceName>
+   <description></description>
+   <aggregateName>KEGG-databases</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;pathway&amp;#x20;image&gt;&lt;id&gt;&lt;/id&gt;&lt;/pathway&amp;#x20;image&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>id</name>
+      <label>id</label>
+      <type>string</type>
+      <description>pathway ids for images</description>
+   </outAttributes>
+</resource>

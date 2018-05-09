@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>deeb9455-22b2-4b35-8eb1-157f8aa5403f</id>
+   <resourceType>XML</resourceType>
+   <organization>u of idaho</organization>
+   <fileName>skin cancers.xml</fileName>
+   <resourceName>skin cancers.xml</resourceName>
+   <description></description>
+   <aggregateName>GENE-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;skin&amp;#x20;cancers&gt;&lt;cancer&gt;&lt;entry&gt;&lt;/entry&gt;&lt;name&gt;&lt;/name&gt;&lt;&amp;#x20;description&gt;&lt;/&amp;#x20;description&gt;&lt;genes&gt;&lt;gene&gt;&lt;/gene&gt;&lt;/genes&gt;&lt;/cancer&gt;&lt;/skin&amp;#x20;cancers&gt;</urlReturnFileSchema>
+   <methodReturnFileType>XML</methodReturnFileType>
+   <urlReturnFileType>XML</urlReturnFileType>
+   <outAttributes>
+      <name>entry</name>
+      <label>entry</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+   <outAttributes>
+      <name>name</name>
+      <label>name</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+   <outAttributes>
+      <name> description</name>
+      <label> description</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+   <outAttributes>
+      <name>gene</name>
+      <label>gene</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+</resource>

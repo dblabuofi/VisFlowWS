@@ -1,0 +1,14 @@
+<function>
+	<type>function</type>
+    <libraryName>GenomeAnalysisTK.jar</libraryName>
+    <libraryId>69044887-348f-4a40-ae4c-67d2e25b66a3</libraryId>
+    <organization>GATK</organization>
+    <id>1a20b90f-7843-415d-826c-0a25402a24a0</id>
+    <functionName>GenomeAnalysisTK.jar</functionName>
+    <functionType>executable</functionType>
+	<aggregateName>GENOME-jars</aggregateName>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\librarys\</location>
+    <description>
+			GenomeAnalysisToolkit
+    </description>
+</function>

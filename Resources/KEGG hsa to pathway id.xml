@@ -1,0 +1,56 @@
+<resource>
+	<id>cf54b311-e213-4d72-8f2d-3dd1b19e17ab</id>
+    <resourceType>REST</resourceType>
+    <organization>Kanehisa Laboratories</organization>
+	<resourceName>GeneIdToPathwayId</resourceName>
+	<fileName>KEGG hsa to pathway id.xml</fileName>
+    <description>
+		convert hsa id to pathway id
+    </description>
+	<aggregateName>KEGG-databases</aggregateName>
+    <url>http://rest.kegg.jp/link/pathway/{hsa}</url>
+	<urlExmaple>http://rest.kegg.jp/link/pathway/hsa:217</urlExmaple>
+	<suggestOutputFileName>keggpathway.csv</suggestOutputFileName>
+	<method>REST</method>
+	<attributes> 
+		<label>hsa</label>
+		<name>hsa</name>
+		<type>string</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<example>hsa:217</example>
+		<attributeType>input</attributeType>
+		<description>hsa</description>
+		<from>default</from>
+	</attributes>
+	<outAttributes>
+		<label>hsa</label>
+		<name>hsa</name>
+		<type>string</type>
+		<description>hsa id</description>
+	</outAttributes>
+	<outAttributes>
+		<label>pathway</label>
+		<name>pathway</name>
+		<type>string</type>
+		<description>pathway id</description>
+	</outAttributes>
+	<methodReturnFileType>TEXT</methodReturnFileType>
+	<urlReturnFileType>CSV</urlReturnFileType>
+	<urlReturnFileSchema>
+		&lt;KEGG&#x20;hsa&#x20;to&#x20;pathway&#x20;id&gt;
+			&lt;hsa&gt;&lt;/hsa&gt;
+			&lt;pathway&gt;&lt;/pathway&gt;
+		&lt;/KEGG&#x20;hsa&#x20;to&#x20;pathway&#x20;id&gt;
+	</urlReturnFileSchema>
+	<urlReturnFileName></urlReturnFileName>
+    <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+	<wrapper>
+			<wrapperName>textTableWrapper</wrapperName>
+			<separator>\t</separator>
+			<headers>hsa</headers>
+			<headers>pathway</headers>
+			<resultContainHeaderInfo>false</resultContainHeaderInfo>
+	</wrapper>
+</resource>

@@ -1,0 +1,20 @@
+<resource>
+        <id>1aebfe5e-6853-4b91-b739-ff69b22c0a48</id>
+        <resourceType>fa</resourceType>
+        <organization>UI database team</organization>
+        <fileName>upstream1000.fa</fileName>
+        <resourceName>upstream1000.fa</resourceName>
+		<description>
+		upstream1000 
+		</description>
+		<aggregateName>BIO-databases</aggregateName>
+		<url/>
+		<methodReturnFileType>fa</methodReturnFileType>
+		<urlReturnFileType>fa</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;upstream1000&gt;
+			&lt;/upstream1000&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+</resource>

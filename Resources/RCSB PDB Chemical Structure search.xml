@@ -1,0 +1,94 @@
+ <resource>
+        <id>3ef6f1fa-1143-4218-895f-e5555710843d</id>
+        <resourceType>HTTP</resourceType>
+        <organization>Protein Data Bank</organization>
+        <resourceName>RCSB PDB Chemical Structure search</resourceName>
+		<fileName>RCSB PDB Chemical Structure search.xml</fileName>
+		<description>
+		This query performs chemical structure searches using SMILES and SMARTS linear notations. 
+		</description>
+		<aggregateName>BIO-databases</aggregateName>
+		<url>http://www.rcsb.org/pdb/rest/smilesQuery</url>
+		<urlExample>http://www.rcsb.org/pdb/rest/smilesQuery?smiles=NC(=O)C1=CC=CC=C1&amp;search_type=exact</urlExample>
+		<suggestOutputFileName>rcsbChemical.csv</suggestOutputFileName>
+		<method>GET</method>
+		<attributes>
+			<label>smiles</label>
+			<name>smiles</name>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>NC(=O)C1=CC=CC=C1</example>
+			<description>chemical structure</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>search_type</label>
+			<name>search_type</name>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<example>exact</example>
+			<attributeType>selection</attributeType>
+			<selectionpair><label>exact</label><value>exact</value></selectionpair>
+			<selectionpair><label>substructure</label><value>substructure</value></selectionpair>
+			<selectionpair><label>superstructure</label><value>superstructure</value></selectionpair>
+			<selectionpair><label>similarity</label><value>similarity</value></selectionpair>
+			<description>search types:  exact, substructure, superstructure or similarity</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>similarity</label>
+			<name>similarity</name>
+			<value></value>
+			<required>false</required>
+			<shown>true</shown>
+			<example>0.7</example>
+			<attributeType>input</attributeType>
+			<description>Specify a similarity threshold to change the degree of similarity in the [0...1] range: 0 dissimilar ... 1 identical.</description>
+			<from>input</from>
+		</attributes>
+		<methodReturnFileType>XML</methodReturnFileType>
+		<urlReturnFileType>XML</urlReturnFileType>
+		<outAttributes>
+			<label>chemicalName</label>
+			<name>chemicalName</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>formula</label>
+			<name>formula</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>InChIKey</label>
+			<name>InChIKey</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>InChI</label>
+			<name>InChI</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>smiles</label>
+			<name>smiles</name>
+			<type>string</type>
+		</outAttributes>
+		<urlReturnFileSchema>
+			&lt;smilesQueryResult&gt;
+				&lt;ligandInfo&gt;
+					&lt;ligand&gt;
+						&lt;chemicalName&gt;&lt;/chemicalName&gt;
+						&lt;formula&gt;&lt;/formula&gt;
+						&lt;InChIKey&gt;&lt;/InChIKey&gt;
+						&lt;InChI&gt;&lt;/InChI&gt;
+						&lt;smiles&gt;&lt;/smiles&gt;
+					&lt;/ligand&gt;
+				&lt;/ligandInfo&gt;
+			&lt;/smilesQueryResult&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+</resource>

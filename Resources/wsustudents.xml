@@ -1,0 +1,57 @@
+ <resource>
+        <id>010f41d6-97f4-4fe9-bfd1-ce0e09fabf67</id>
+        <resourceType>XML</resourceType>
+        <organization>WSU</organization>
+        <fileName>wsustudents.xml</fileName>
+        <resourceName>wsustudents.xml</resourceName>
+		<aggregateName>EMPLOYEE-databases</aggregateName>
+		<description>
+		washington state university students
+		</description>
+		<url/>
+		<methodReturnFileType>XML</methodReturnFileType>
+		<urlReturnFileType>XML</urlReturnFileType>
+        <outAttributes>
+            <label>name</label>
+            <name>name</name>
+            <type>string</type>
+			<description>student name</description>
+        </outAttributes>
+        <outAttributes>
+            <label>major</label>
+            <name>major</name>
+            <type>string</type>
+			<description>student major</description>
+        </outAttributes>
+        <outAttributes>
+            <label>age</label>
+            <name>age</name>
+            <type>number</type>
+			<description>studen age</description>
+        </outAttributes>
+        <outAttributes>
+            <label>birthday</label>
+            <name>birthday</name>
+            <type>date</type>
+			<description>birthday</description>
+        </outAttributes>
+        <outAttributes>
+            <label>phone</label>
+            <name>phone</name>
+            <type>string</type>
+			<description>phone</description>
+        </outAttributes>
+		<urlReturnFileSchema>
+			&lt;students&gt;
+			&lt;student&gt;
+				&lt;name&gt;&lt;/name&gt;
+				&lt;major&gt;&lt;/major&gt;
+				&lt;age&gt;&lt;/age&gt;
+				&lt;birthday&gt;&lt;/birthday&gt;
+				&lt;phone&gt;&lt;/phone&gt;
+				&lt;/student&gt;
+			&lt;/students&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+    </resource>

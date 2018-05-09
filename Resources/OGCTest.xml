@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>495a9238-3805-468a-8120-d6d61eae6cf4</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>OGCTest.csv</fileName>
+   <resourceName>OGCTest.csv</resourceName>
+   <description>layers for OGC test</description>
+   <aggregateName>OGC-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;layers&gt;&lt;layer&gt;&lt;/layer&gt;&lt;/layers&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>layer</name>
+      <label>layer</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+</resource>

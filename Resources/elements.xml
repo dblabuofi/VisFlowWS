@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>d484634c-550b-4059-bc79-e18bee5dce0d</id>
+   <resourceType>CSV</resourceType>
+   <organization>u of idaho</organization>
+   <fileName>elements.csv</fileName>
+   <resourceName>elements.csv</resourceName>
+   <description>mineral elements</description>
+   <aggregateName>CSV-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;mineral&amp;#x20;elements&gt;&lt;focus&gt;&lt;/focus&gt;&lt;/mineral&amp;#x20;elements&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>focus</name>
+      <label>focus</label>
+      <type>string</type>
+      <description>element</description>
+   </outAttributes>
+   <attributes>
+      <label></label>
+      <name></name>
+      <type>String</type>
+      <value></value>
+      <required>TRUE</required>
+      <shown>TRUE</shown>
+      <attributeType>input</attributeType>
+      <example></example>
+      <description></description>
+      <from>default</from>
+   </attributes>
+</resource>

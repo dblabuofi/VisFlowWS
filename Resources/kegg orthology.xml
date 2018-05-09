@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>eeb4486a-f059-45d9-99a7-9b5b7343e10d</id>
+   <resourceType>REST</resourceType>
+   <organization>KEGG</organization>
+   <fileName>KEGG orthology.xml</fileName>
+   <resourceName>GeneIdToOrthologyId</resourceName>
+   <description>KEGG orthology change</description>
+   <urlReturnFileName/>
+   <aggregateName>KEGG-databases</aggregateName>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <methodReturnFileType>TEXT</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <url>http://rest.kegg.jp/link/orthology/hsa:{id}</url>
+	<urlExmaple>http://rest.kegg.jp/link/pathway/hsa:217</urlExmaple>
+	<suggestOutputFileName>keggorthology.csv</suggestOutputFileName>
+	<method>REST</method>
+   <attributes>
+      <label>id</label>
+      <name>id</name>
+      <type>Integer</type>
+      <value></value>
+      <required>TRUE</required>
+      <shown>TRUE</shown>
+      <attributeType>input</attributeType>
+      <example>218</example>
+      <description>gene id</description>
+      <from>default</from>
+   </attributes>
+   <outAttributes>
+		<label>hsa</label>
+		<name>hsa</name>
+		<type>string</type>
+		<description>hsa id</description>
+	</outAttributes>
+	<outAttributes>
+		<label>ko</label>
+		<name>ko</name>
+		<type>string</type>
+		<description>ko id</description>
+	</outAttributes>
+   <urlReturnFileSchema>
+		&lt;KEGG&#x20;orthology&gt;
+			&lt;hsa&gt;&lt;/hsa&gt;
+			&lt;ko&gt;&lt;/ko&gt;
+		&lt;/KEGG&#x20;orthology&gt;
+	</urlReturnFileSchema>
+	<wrapper>
+			<wrapperName>textTableWrapper</wrapperName>
+			<separator>\t</separator>
+			<headers>hsa</headers>
+			<headers>ko</headers>
+			<resultContainHeaderInfo>false</resultContainHeaderInfo>
+	</wrapper>
+</resource>

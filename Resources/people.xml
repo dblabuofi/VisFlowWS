@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>a738e878-02c4-4af8-bdcf-4026d1f9198c</id>
+   <resourceType>CSV</resourceType>
+   <organization>u of idaho</organization>
+   <fileName>people.csv</fileName>
+   <resourceName>people.csv</resourceName>
+   <description>people table </description>
+   <aggregateName>EMPLOYEE-databases</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;people&gt;&lt;id&gt;&lt;/id&gt;&lt;home&gt;&lt;/home&gt;&lt;company&gt;&lt;/company&gt;&lt;/people&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>id</name>
+      <label>id</label>
+      <type>int</type>
+      <description>identifier</description>
+   </outAttributes>
+   <outAttributes>
+      <name>home</name>
+      <label>home</label>
+      <type>string</type>
+      <description>location information</description>
+   </outAttributes>
+   <outAttributes>
+      <name>company</name>
+      <label>company</label>
+      <type>string</type>
+      <description>company where the people work</description>
+   </outAttributes>
+</resource>

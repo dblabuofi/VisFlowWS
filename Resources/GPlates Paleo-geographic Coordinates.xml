@@ -1,0 +1,67 @@
+<resource>
+        <id>26db8e15-1050-4e16-87ce-5b2b52846ced</id>
+        <resourceType>HTTPS</resourceType>
+        <organization>GPlates</organization>
+        <resourceName>GPlates Paleo-geographic Coordinates</resourceName>
+		<fileName>GPlates Paleo-geographic Coordinates.xml</fileName>
+		<aggregateName>GPlates-webservices</aggregateName>
+		<description>
+		Reconstruct the geographic locations from present day coordinates back 
+		to their paleo-positions. Each location will be assigned a plate id and moved back in time
+		using the chosen reconstruction model.
+		</description>
+		<url>https://gws.gplates.org/reconstruct/reconstruct_points/</url>
+		<urlExample>https://gws.gplates.org/reconstruct/reconstruct_points/?points=95,54,142,-33&amp;time=140</urlExample>
+		<suggestOutputFileName>gplateOldCoords.xml</suggestOutputFileName>
+		<method>GET</method>
+		<attributes>
+			<label>points</label>
+			<name>points</name>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>95,54</example>
+			<description>The present-day coordinates of locations in longitude and latitude separated by ','.</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>time</label>
+			<name>time</name>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<example>140</example>
+			<attributeType>input</attributeType>
+			<description>The geological age in million years(Ma) to which the coordinates will be reconstructed. 
+			The valid input value depends on the chosen reconstruction model.</description>
+			<from>input</from>
+		</attributes>
+		<methodReturnFileType>JSON</methodReturnFileType>
+		<urlReturnFileSchema>
+			&lt;gplates&gt;
+				&lt;coordinates&gt;
+					&lt;array&gt;&lt;/array&gt;
+				&lt;/coordinates&gt;
+				&lt;type&gt;type&lt;/type&gt;
+			&lt;/gplates&gt;
+		</urlReturnFileSchema>	
+		<urlReturnFileType>XML</urlReturnFileType>
+		<outAttributes>
+			<label>array</label>
+			<name>array</name>
+			<type>string</type>
+			<descrption>array of latidute and langtitude</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>type</label>
+			<name>type</name>
+			<type>string</type>
+			<descrption>type</descrption>
+		</outAttributes>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>jsonTOxmlWrapper</wrapperName>
+		</wrapper>
+</resource>

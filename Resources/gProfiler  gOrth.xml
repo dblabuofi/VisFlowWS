@@ -1,0 +1,136 @@
+ <resource>
+        <id>76b00934-4f17-4997-9fb0-582ebf8f2aea</id>
+        <resourceType>HTTP</resourceType>
+        <organization>g:Profiler</organization>
+        <resourceName>gOrth</resourceName>
+		<fileName>gProfiler gOrth.xml</fileName>
+		<aggregateName>gProfiler-webservices</aggregateName>
+		<description>
+		g:Orth is a tool for mapping orthologous genes in related organisms. Ortholog genes are similar in sequence and are likely conserved through evolution since a common ancestor. Orhologous genes may also carry out similar function and are therefore relevant in functional analysis. 
+		</description>
+		<url>http://biit.cs.ut.ee/gprofiler/gorth.cgi</url>
+		<urlExample>http://biit.cs.ut.ee/gprofiler/gorth.cgi?organism=scerevisiae&amp;target=hsapiens&amp;query=ABF1+ACA1</urlExample>
+		<suggestOutputFileName>gorthRes.csv</suggestOutputFileName>
+		<method>GET</method>
+		<attributes>
+			<label>Organism</label>
+			<name>organism</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>Saccharomyces cerevisiae</example>
+			<attributeType>selection</attributeType>
+			<selectionpair><label>Saccharomyces cerevisiae</label><value>scerevisiae</value></selectionpair>
+			<selectionpair><label>Homo sapiens</label><value>hsapiens</value></selectionpair>
+			<selectionpair><label>Mus musculus</label><value>mmusculus</value></selectionpair>
+			<description>This parameter shows to which organism the genes proteins and probes in input query belong.</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>target organism</label>
+			<name>target</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>Homo sapiens</example>
+			<attributeType>selection</attributeType>
+			<selectionpair><label>Homo sapiens</label><value>hsapiens</value></selectionpair>
+			<selectionpair><label>Mus musculus</label><value>mmusculus</value></selectionpair>
+			<selectionpair><label>Rattus norvegicus</label><value>rnorvegicus</value></selectionpair>
+			<description>For every gene, protein or probe ID in input, g:Orth seeks for corresponding orthologs in given target organism. </description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>Query</label>
+			<name>query</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>ABF1+ACA1+ACE2+ADA2+ADR1+AFT2</example>
+			<attributeType>input</attributeType>
+			<description>It contains one or more genes (proteins, transcripts, microarray probeset IDs, etc) or a selected organism. </description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>Output type</label>
+			<name>output</name>
+			<value>mini</value>
+			<type>string</type>
+			<required>true</required>
+			<shown>false</shown>
+			<description>print a nice format to extract data</description>
+			<from>default</from>
+		</attributes>
+		<outAttributes>
+			<label>G#</label>
+			<name>G#</name>
+			<type>string</type>
+			<description>G#</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Initial alias</label>
+			<name>Initial alias</name>
+			<type>string</type>
+			<description>initial alias</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Initial ENSG</label>
+			<name>Initial ENSG</name>
+			<type>string</type>
+			<description>initial ENSG</description>
+		</outAttributes>
+		<outAttributes>
+			<label>O#</label>
+			<name>O#</name>
+			<type>string</type>
+			<description>O#</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Ortholog ENSG</label>
+			<name>Ortholog ENSG</name>
+			<type>string</type>
+			<description>Ortholog ENSG</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Ortholog name</label>
+			<name>Ortholog name</name>
+			<type>string</type>
+			<description>Ortholog name</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Ortholog description</label>
+			<name>Ortholog description</name>
+			<type>string</type>
+			<description>Orthology description</description>
+		</outAttributes>
+		<methodReturnFileType>TEXT</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;gProfiler&#x20;gOrth&gt;
+				&lt;G#&gt;&lt;/G#&gt;
+				&lt;Initial&#x20;alias&gt;&lt;/Initial&#x20;alias&gt;
+				&lt;Initial&#x20;ENSG&gt;&lt;/Initial&#x20;ENSG&gt;
+				&lt;O#&gt;&lt;/O#&gt;
+				&lt;Ortholog&#x20;ENSG&gt;&lt;/Ortholog&#x20;ENSG&gt;
+				&lt;Ortholog&#x20;name&gt;&lt;/Ortholog&#x20;name&gt;
+				&lt;Ortholog&#x20;description&gt;&lt;/Ortholog&#x20;description&gt;
+			&lt;/gProfiler&#x20;gOrth&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>textTableWrapper</wrapperName>
+			<separator>\t</separator>
+			<headers>G#</headers>
+			<headers>Initial alias</headers>
+			<headers>Initial ENSG</headers>
+			<headers>O#</headers>
+			<headers>Ortholog ENSG</headers>
+			<headers>Ortholog name</headers>
+			<headers>Ortholog description</headers>
+			<resultContainHeaderInfo>false</resultContainHeaderInfo>
+		</wrapper>
+</resource>

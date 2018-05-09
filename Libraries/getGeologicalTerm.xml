@@ -1,0 +1,19 @@
+<library>
+    <id>d4c63cc6-c904-4a0d-af45-6f648220c7cc</id>
+	<type>library</type>
+    <libraryName>picard.jar</libraryName>
+	<libraryType>executable</libraryType>
+    <organization>broad institude</organization>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\librarys\</location>
+	<alias>picard.jar</alias>
+    <description>
+	Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF. These file formats are defined in the Hts-specs repository. See especially the SAM specification and the VCF specification. Note that the information on this page is targeted at end-users. For developers, the source code, building instructions and implementation/development resources are available on GitHub. The Picard toolkit is open-source under the MIT license and free for all uses.
+    </description>
+	<function>
+		<functionName>picard.jar</functionName>
+		<functionId>d3fcf21b-fd40-47e0-b64e-73a15e201513</functionId>
+		<description>
+			A set of command line tools (in Java) for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.
+        </description>
+	</function>
+</library>

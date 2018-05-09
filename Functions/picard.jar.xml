@@ -1,0 +1,14 @@
+<function>
+	<type>function</type>
+    <libraryName>picard.jar</libraryName>
+	<libraryId>d4c63cc6-c904-4a0d-af45-6f648220c7cc</libraryId>
+    <organization>broad institude</organization>
+	<id>d3fcf21b-fd40-47e0-b64e-73a15e201513</id>
+	<functionName>picard.jar</functionName>
+	<functionType>executable</functionType>
+	<aggregateName>GENOME-functions</aggregateName>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+    <description>
+		Burrows-Wheeler Aligner function
+    </description>
+</function>

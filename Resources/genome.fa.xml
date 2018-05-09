@@ -1,0 +1,21 @@
+ <resource>
+        <id>e2ee71a7-8bd3-49a5-86a0-fd9b2fad4f60</id>
+        <resourceType>fa</resourceType>
+        <organization>UCSC</organization>
+        <fileName>genome.fa</fileName>
+        <resourceName>genome.fa</resourceName>
+        <content/>
+		<description>
+		Human Reference Genome In Fasta Format
+		</description>
+		<aggregateName>BIO-databases</aggregateName>
+		<url/>
+		<methodReturnFileType>fa</methodReturnFileType>
+		<urlReturnFileType>fa</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;genome.fa&gt;
+			&lt;/genome.fa&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+</resource>

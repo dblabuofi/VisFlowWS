@@ -1,0 +1,80 @@
+ <resource>
+        <id>22f040a4-170c-48f0-b16e-e54b12facb81</id>
+        <resourceType>REST</resourceType>
+        <organization>EMBL-EBI</organization>
+        <resourceName>Treefam sequence search</resourceName>
+		<fileName>Treefam sequence search.xml</fileName>
+		<aggregateName>BIO-databases</aggregateName>
+		<description>
+		TreeFam is a database composed of phylogenetic trees inferred from animal genomes. It provides orthology/parology predictions as well the evolutionary history of genes.
+		</description>
+		<url>http://www.treefam.org/sequence/{sequence}</url>
+		<urlExample>http://www.treefam.org/sequence/ENSP00000428984</urlExample>
+		<suggestOutputFileName>treefamsequence.csv</suggestOutputFileName>
+		<method>REST</method>
+		<attributes>
+			<label>sequence</label>
+			<name>sequence</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>ENSP00000428984</example>
+			<attributeType>input</attributeType>
+			<description>Treefam sequence ID</description>
+			<from>input</from>
+		</attributes>
+		<outAttributes>
+			<label>Species</label>
+			<name>Species</name>
+			<type>string</type>
+			<description>Species</description>
+		</outAttributes>
+		<outAttributes>
+			<label>ID</label>
+			<name>ID</name>
+			<type>string</type>
+			<description>id</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Species</label>
+			<name>Species</name>
+			<type>string</type>
+			<description>Species</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Type</label>
+			<name>Type</name>
+			<type>string</type>
+			<description>Type</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Taxonomic level</label>
+			<name>Taxonomic level</name>
+			<type>string</type>
+			<description>Taxomomic Level</description>
+		</outAttributes>
+		<methodReturnFileType>HTML</methodReturnFileType><!-- method return type -->
+		<urlReturnFileType>CSV</urlReturnFileType><!-- return file type -->
+		<urlReturnFileSchema>
+			&lt;Treefam&#x20;sequence&#x20;info&gt;
+					&lt;Species&gt;&lt;/Species&gt;
+					&lt;ID&gt;&lt;/ID&gt;
+					&lt;Species&gt;&lt;/Species&gt;
+					&lt;ID&gt;&lt;/ID&gt;
+					&lt;Taxonomic&#x20;level&gt;&lt;/Taxonomic&#x20;level&gt;
+			&lt;/Treefam&#x20;sequence&#x20;info&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<matcher></matcher>
+		<wrapper>
+			<wrapperName>myTableExactor</wrapperName>
+			<headers>Species</headers>
+			<headers>ID</headers>
+			<headers>Species</headers>
+			<headers>ID</headers>
+			<headers>Type</headers>
+			<headers>Taxonomic level</headers>
+		</wrapper>
+</resource>

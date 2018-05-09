@@ -1,0 +1,120 @@
+ <resource>
+        <id>c9abcf74-a2aa-4f42-ac93-af27640a9a76</id>
+        <resourceType>HTTP</resourceType>
+        <organization>The Arabidopsis Information Resource (TAIR)</organization>
+        <resourceName>TAIR Plant Ontology (PO) search</resourceName>
+		<fileName>TAIR Plant Ontology (PO) search.xml</fileName>
+		<description>
+		Paste locus identifiers (such as At1g01030) into the textbox and press one of the submit buttons below. The identifiers have to be separated by commas. The PO annotations will return in detail all the PO annotations done to your set of genes. 
+		</description>
+		<aggregateName>TAIR-databases</aggregateName>
+		<url>http://www.arabidopsis.org/cgi-bin/bulk/po/getpo.pl</url>
+		<postURL>http://www.arabidopsis.org/cgi-bin/bulk/po/getpo.pl</postURL>
+		<urlExample>http://www.arabidopsis.org/cgi-bin/bulk/po/getpo.pl</urlExample>
+		<method>POST</method>
+		<attributes>
+			<label>loci</label>
+			<name>loci</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>At1g01030,At1g01040</example>
+			<description>locus identifiers</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>output_type</label>
+			<name>output_type</name>
+			<value>text</value>
+			<type>string</type>
+			<required>true</required>
+			<shown>false</shown>
+			<attributeType>input</attributeType>
+			<description>return type is txt file</description>
+			<from>input</from>
+		</attributes>
+		<outAttributes>
+			<label>Locus</label>
+			<name>Locus</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Gene Model(s)</label>
+			<name>Gene Model(s)</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>PO term</label>
+			<name>PO term</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>PO ID</label>
+			<name>PO ID</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>cat</label>
+			<name>cat</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>code</label>
+			<name>code</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Reference</label>
+			<name>Reference</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Made by</label>
+			<name>Made by</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>update date</label>
+			<name>update date</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>last modified</label>
+			<name>last modified</name>
+			<type>string</type>
+		</outAttributes>
+		<methodReturnFileType>TEXT</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;TAIR&#x20;Plant&#x20;Ontology&#x20;(PO)&#x20;search&gt;
+				&lt;Locus&gt;&lt;/Locus&gt;
+				&lt;Gene&#x20;Model(s)&gt;&lt;/Gene&#x20;Model(s)&gt;
+				&lt;PO&#x20;term&gt;&lt;/PO&#x20;term&gt;
+				&lt;PO&#x20;ID&gt;&lt;/PO&#x20;ID&gt;
+				&lt;cat&gt;&lt;/cat&gt;
+				&lt;code&gt;&lt;/code&gt;
+				&lt;Reference&gt;&lt;/Reference&gt;
+				&lt;Made&#x20;by&#x20;date&gt;&lt;/Made&#x20;by&#x20;date&gt;
+				&lt;update&#x20;date&gt;&lt;/update&#x20;date&gt;
+				&lt;last&#x20;modified&gt;&lt;/last&#x20;modified&gt;
+			&lt;/TAIR&#x20;Plant&#x20;Ontology&#x20;(PO)&#x20;search&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>textTableWrapper</wrapperName>
+			<separator>\t</separator>
+			<headers>Locus</headers>
+			<headers>Gene Model(s)</headers>
+			<headers>PO term</headers>
+			<headers>PO ID</headers>
+			<headers>cat</headers>
+			<headers>code</headers>
+			<headers>Reference</headers>
+			<headers>Made by date</headers>
+			<headers>last modified</headers>
+			<resultContainHeaderInfo>false</resultContainHeaderInfo>
+		</wrapper>
+</resource>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>de4c737b-d32f-4fcd-8d97-9d0e27efb5bb</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>genemiddle.csv</fileName>
+   <resourceName>genemiddle.csv</resourceName>
+   <description>gene middle</description>
+   <urlReturnFileName/>
+   <aggregateName>GENE-resources</aggregateName>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;genemiddle&gt;&lt;/genemiddle&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>genemiddle</name>
+      <label>genemiddle</label>
+      <type>string</type>
+	  <descrption>gene id</descrption>
+   </outAttributes>
+</resource>

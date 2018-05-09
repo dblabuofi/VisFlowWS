@@ -1,0 +1,41 @@
+ <resource>
+        <id>0b1e8320-3b3f-4da3-9e2c-68ef4d6f5556</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>genesleft.csv</resourceName>
+        <fileName>genesleft.csv</fileName>
+		<url/>
+		<aggregateName>GENE-resources</aggregateName>
+		<description>
+		genes id with average and count value
+		</description>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;genes&gt;
+					&lt;gene&gt;&lt;/gene&gt;
+					&lt;average&gt;&lt;/average&gt;
+					&lt;count&gt;&lt;/count&gt;
+			&lt;/genes&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<outAttributes>
+			<label>gene</label>
+			<name>gene</name>
+			<type>string</type>
+			<descrption>gene id</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>average</label>
+			<name>average</name>
+			<type>string</type>
+			<descrption>average value</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>count</label>
+			<name>count</name>
+			<type>string</type>
+			<descrption>Count</descrption>
+		</outAttributes>
+</resource>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>e4181115-0f72-4751-a45b-908ecd31e1b8</id>
+   <resourceType>SQL</resourceType>
+   <organization></organization>
+   <fileName>employees</fileName>
+   <resourceName>employees</resourceName>
+   <description>employee table</description>
+   <urlReturnFileName/>
+   <aggregateName>EMPLOYEE-databases</aggregateName>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;employees&gt;&lt;emp_no&gt;&lt;/emp_no&gt;&lt;first_name&gt;&lt;/first_name&gt;&lt;last_name&gt;&lt;/last_name&gt;&lt;/employees&gt;</urlReturnFileSchema>
+   <methodReturnFileType>SQL</methodReturnFileType>
+   <urlReturnFileType>SQL</urlReturnFileType>
+   <outAttributes>
+      <name>emp_no</name>
+      <label>emp_no</label>
+      <type>int</type>
+	  <description>employee number</description>
+   </outAttributes>
+   <outAttributes>
+      <name>first_name</name>
+      <label>first_name</label>
+      <type>string</type>
+	  <description>first name</description>
+   </outAttributes>
+   <outAttributes>
+      <name>last_name</name>
+      <label>last_name</label>
+      <type>string</type>
+	  <description>last name</description>
+   </outAttributes>
+</resource>

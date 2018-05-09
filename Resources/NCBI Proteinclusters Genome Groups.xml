@@ -1,0 +1,72 @@
+ <resource>
+        <id>e787e336-32c1-46aa-9e67-44be4ebe6580</id>
+        <resourceType>REST</resourceType>
+        <organization>NCBI</organization>
+        <resourceName>NCBI Proteinclusters Genome Groups</resourceName>
+		<fileName>NCBI Proteinclusters Genome Groups.xml</fileName>
+		<description>
+		Protein Clusters is a collection of related protein sequences (clusters) consisting of Reference Sequence proteins that are encoded by complete prokaryotic genomes as well those encoded eukaryotic organelle plasmids and genomes.
+		</description>
+		<aggregateName>NCBI-databases</aggregateName>
+		<url>http://www.ncbi.nlm.nih.gov/proteinclusters/{proteinclusterID}</url>
+		<urlExample>http://www.ncbi.nlm.nih.gov/proteinclusters/122903</urlExample>
+		<suggestOutputFileName>proteincluster.csv</suggestOutputFileName>
+		<method>REST</method>
+		<attributes>
+			<label>proteinclusterID</label>
+			<name>proteinclusterID</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>122903</example>
+			<attributeType>input</attributeType>
+			<description>protein cluster id</description>
+		</attributes>
+		<outAttributes>
+			<label>Clade ID</label>
+			<name>Clade ID</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Name</label>
+			<name>Name</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Proteins in Cluster</label>
+			<name>Proteins in Cluster</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Total Annotated Genomes</label>
+			<name>Total Annotated Genomes</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>Proteins per Genome(median) significance</label>
+			<name>Proteins per Genome(median) significance</name>
+			<type>string</type>
+		</outAttributes>
+		<methodReturnFileType>HTML</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;NCBI&#x20;Portein&#x20;Cluster&#x20;Genome&#x20;Groups&gt;
+				&lt;Clade&#x20;ID&gt;&lt;/Clade&#x20;ID&gt;
+				&lt;Name&gt;&lt;/Name&gt;
+				&lt;Proteins&#x20;in&#x20;Cluster&gt;&lt;/Proteins&#x20;in&#x20;Cluster&gt;
+				&lt;Total&#x20;Annotated&#x20;Genomes&gt;&lt;/Total&#x20;Annotated&#x20;Genomes&gt;
+				&lt;Proteins&#x20;per&#x20;Genome(median)&#x20;significance&gt;&lt;/Proteins&#x20;per&#x20;Genome(median)&#x20;significance&gt;
+			&lt;/NCBI&#x20;Portein&#x20;Cluster&#x20;Genome&#x20;Groups&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>myTableExactor</wrapperName>
+			<headers>Clade ID</headers>
+			<headers>Name</headers>
+			<headers>Proteins in Cluster</headers>
+			<headers>Total Annotated Genomes</headers>
+			<headers>Proteins per Genome(median) significance</headers>
+		</wrapper>
+</resource>

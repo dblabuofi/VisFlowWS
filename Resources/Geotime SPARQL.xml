@@ -1,0 +1,128 @@
+ <resource>
+        <id>cc0c88bc-f91d-456d-bf3f-adc43a9d037c</id>
+        <resourceType>HTTP</resourceType>
+        <organization>geotime.tw.rpi.edu</organization>
+        <resourceName>Geotime SPARQL</resourceName>
+		<fileName>Geotime SPARQL.xml</fileName>
+		<description>
+			Geotime SPARQL service
+		</description>
+		<url>http://geotime.tw.rpi.edu/fuseki/ds/query</url>
+		<urlExample></urlExample>
+		<suggestOutputFileName>geotimeRes.xml</suggestOutputFileName>
+		<method>GET</method>
+		<aggregateName>Geotime-webservices</aggregateName>
+		<attributes>
+			<label>query</label>
+			<name>query</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>PREFIX gts: &lt;http://resource.geosciml.org/ontology/timescale/gts-30#&gt; 
+PREFIX gtrs: &lt;http://resource.geosciml.org/ontology/timescale/gtrs-30#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; 
+PREFIX sam: &lt;http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#&gt;
+PREFIX gm: &lt;http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#&gt; 
+PREFIX tm: &lt;http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#&gt;
+PREFIX basic: &lt;http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#&gt;
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+ 
+SELECT ?gsspLabel ?primaryGuidingCriterion ?coordinates ?age ?ageUncertainty ?detailedConceptName
+WHERE 
+{
+?base gts:stratotype ?gssp;
+      tm:position ?baseTime.
+?gssp rdfs:label ?gsspLabel;
+      gts:primaryGuidingCriterion ?primaryGuidingCriterion;
+      sam:shape ?gsspLocation.
+?gsspLocation gm:position ?gsspPosition.
+?gsspPosition gm:coordinates ?coordinates.
+?baseTime tm:value ?age.
+OPTIONAL
+{
+?base gtrs:positionalUncertainty ?baseTimeUncertainty.
+?baseTimeUncertainty basic:amount ?ageUncertainty.
+}
+{
+?lowestRankConcept gts:rank &lt;http://resource.geosciml.org/ontology/timescale/rank/Age&gt;;
+                       gtrs:start ?base.
+}
+UNION
+{
+?lowestRankConcept rdfs:label &quot;Ediacaran Period&quot;@en;
+                       gtrs:start ?base.
+}
+UNION
+{
+?lowestRankConcept rdfs:label &quot;Holocene Epoch&quot;@en;
+                       gtrs:start ?base.
+}
+UNION
+{
+?lowestRankConcept rdfs:label &quot;Pridoli Epoch&quot;@en;
+                       gtrs:start ?base.
+}
+?lowestRankConcept skos:prefLabel ?detailedConceptName
+FILTER (lang(?detailedConceptName) = &quot;en&quot; )
+}
+ORDER BY ?age</example>
+			<attributeType>input</attributeType>
+			<description>query</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>output</label>
+			<name>output</name>
+			<value>json</value>
+			<type>string</type>
+			<required>true</required>
+			<shown>false</shown>
+			<example></example>
+			<attributeType>input</attributeType>
+			<description>result type</description>
+			<from>default</from>
+		</attributes>
+		<outAttributes>
+			<label>datatype</label>
+			<name>datatype</name>
+			<type>string</type>
+			<descrption>data type</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>type</label>
+			<name>type</name>
+			<type>string</type>
+			<descrption>type</descrption>
+		</outAttributes>
+		<outAttributes>
+			<label>value</label>
+			<name>value</name>
+			<type>string</type>
+			<descrption>value</descrption>
+		</outAttributes>
+		<methodReturnFileType>JSON</methodReturnFileType>
+		<urlReturnFileType>XML</urlReturnFileType>
+		<urlReturnFileSchema>
+		</urlReturnFileSchema>
+		<!-- <urlReturnFileSchema> -->
+			<!-- &lt;Geotime&#x20;SPARQL&gt; -->
+				<!-- &lt;head&gt; -->
+					<!-- &lt;vars&gt;&lt;/vars&gt; -->
+				<!-- &lt;/head&gt; -->
+				<!-- &lt;results&gt; -->
+					<!-- &lt;bindings&gt; -->
+						<!-- &lt;gsspLabel&gt; -->
+							<!-- &lt;type&gt;&lt;/type&gt; -->
+							<!-- &lt;value&gt;&lt;/value&gt; -->
+						<!-- &lt;/gsspLabel&gt; -->
+					<!-- &lt;/bindings&gt;	 -->
+				<!-- &lt;/results&gt; -->
+			<!-- &lt;/Geotime&#x20;SPARQL&gt; -->
+		<!-- </urlReturnFileSchema> -->
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>jsonTOxmlWrapper</wrapperName>
+		</wrapper>
+</resource>

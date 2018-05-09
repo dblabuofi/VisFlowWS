@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>bc865cd8-498d-4c4b-93f1-18699a9500e5</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>fossilLocation.csv</fileName>
+   <resourceName>fossilLocation.csv</resourceName>
+   <description></description>
+   <aggregateName>GSSP-databases</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;fossil&amp;#x20;location&gt;&lt;occurrence_no&gt;&lt;/occurrence_no&gt;&lt;max_ma&gt;&lt;/max_ma&gt;&lt;min_ma&gt;&lt;/min_ma&gt;&lt;lng&gt;&lt;/lng&gt;&lt;lat&gt;&lt;/lat&gt;&lt;/fossil&amp;#x20;location&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>occurrence_no</name>
+      <label>occurrence_no</label>
+      <type>string</type>
+      <description>fossil id</description>
+   </outAttributes>
+   <outAttributes>
+      <name>max_ma</name>
+      <label>max_ma</label>
+      <type>string</type>
+      <description>max ego age</description>
+   </outAttributes>
+   <outAttributes>
+      <name>min_ma</name>
+      <label>min_ma</label>
+      <type>string</type>
+      <description>min ego age</description>
+   </outAttributes>
+   <outAttributes>
+      <name>lng</name>
+      <label>lng</label>
+      <type>string</type>
+      <description>longtitude</description>
+   </outAttributes>
+   <outAttributes>
+      <name>lat</name>
+      <label>lat</label>
+      <type>string</type>
+      <description>latitude</description>
+   </outAttributes>
+</resource>

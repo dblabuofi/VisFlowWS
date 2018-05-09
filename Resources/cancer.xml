@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>dd8db075-6622-4767-afbd-317d666fe3bb</id>
+   <resourceType>SQL</resourceType>
+   <organization>U of Idaho</organization>
+   <fileName>cancer</fileName>
+   <resourceName>cancer</resourceName>
+   <description>cancer table</description>
+   <aggregateName>BIO-databases</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;Cancers&gt;&lt;cancer&gt;&lt;/cancer&gt;&lt;HumanPart&gt;&lt;/HumanPart&gt;&lt;description&gt;&lt;/description&gt;&lt;/Cancers&gt;</urlReturnFileSchema>
+   <methodReturnFileType>SQL</methodReturnFileType>
+   <urlReturnFileType>SQL</urlReturnFileType>
+   <outAttributes>
+      <name>cancer</name>
+      <label>cancer</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+   <outAttributes>
+      <name>HumanPart</name>
+      <label>HumanPart</label>
+      <type>string</type>
+      <description>human part</description>
+   </outAttributes>
+   <outAttributes>
+      <name>description</name>
+      <label>description</label>
+      <type>string</type>
+      <description>description</description>
+   </outAttributes>
+</resource>

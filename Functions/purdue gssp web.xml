@@ -1,0 +1,51 @@
+<function>
+	<type>function</type>
+    <libraryName>Purdue GSSP Info</libraryName>
+	<libraryId>530b843a-4de1-4cb3-87a1-e8fd161c0151</libraryId>
+    <organization>University of Idaho</organization>
+	<id>7cab97c0-7bd0-4468-94d9-7fd808db2f61</id>
+	<functionName>generatePurdueGsspLink.py</functionName>
+	<functionType>python executable</functionType>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+    <description>
+		Generate Purdue GSSP web link information
+    </description>
+	<aggregateName>GSSP-functions</aggregateName>
+		<attributes>
+			<label>outFile</label>
+			<name>-outFile</name>
+			<type>String</type>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>sparqlQuery.csv</example>
+			<description>output file</description>
+			<from>default</from>
+		</attributes>
+		<attributes>
+			<label>inputFile</label>
+			<name>-inputFile</name>
+			<type>String</type>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>title.csv</example>
+			<description>Input File Name</description>
+			<from>default</from>
+		</attributes>
+		<attributes>
+			<label>attribute</label>
+			<name>-attribute</name>
+			<type>String</type>
+			<value></value>
+			<required>true</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>term</example>
+			<description>attribute</description>
+			<from>default</from>
+		</attributes>
+	<urlReturnFileType/>
+</function>

@@ -1,0 +1,43 @@
+ <resource>
+        <id>5a3b7f94-6285-4cfd-a055-694d78cbd908</id>
+        <resourceType>HTTP</resourceType>
+        <organization>Protein Data Bank</organization>
+        <resourceName>PDB File Description Service</resourceName>
+		<fileName>RCSB PDB File Description Service.xml</fileName>
+		<description>
+		Access general information about a PDB entry 
+		</description>
+		<aggregateName>BIO-databases</aggregateName>
+		<url>http://www.rcsb.org/pdb/rest/describePDB</url>
+		<urlExample>http://www.rcsb.org/pdb/rest/describePDB?structureId=4hhb,1hhb,4hhc</urlExample>
+		<suggestOutputFileName>rcsbPDB.csv</suggestOutputFileName>
+		<method>GET</method>
+		<attributes>
+			<label>structureId</label>
+			<name>structureId</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>4hhb,1hhb,4hhc</example>
+			<attributeType>input</attributeType>
+			<description>structure id</description>
+		</attributes>
+		<outAttributes>
+			<label>relatedPDB</label>
+			<name>relatedPDB</name>
+			<type>string</type>
+		</outAttributes>
+		<methodReturnFileType>XML</methodReturnFileType>
+		<urlReturnFileType>XML</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;PDBdescription&gt;
+				&lt;PDB&gt;
+					&lt;relatedPDB&gt;
+					&lt;/relatedPDB&gt;
+				&lt;/PDB&gt;
+			&lt;/PDBdescription&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+</resource>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>ab4be22a-fe6d-4505-9848-9f0179d569ff</id>
+   <resourceType>CSV</resourceType>
+   <organization>u of Idaho database team</organization>
+   <fileName>extractexample.xml</fileName>
+   <resourceName>extractexample.xml</resourceName>
+   <descrption>extraction exmaple</descrption>
+   <aggregateName>GSSP-databases</aggregateName>
+   <description></description>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>
+   &lt;FeatureTypes&gt;
+		&lt;FeatureType&gt;
+			&lt;CssParameter&gt;
+			&lt;/CssParameter&gt;
+			&lt;Literal&gt;
+			&lt;/Literal&gt;
+		&lt;/FeatureType&gt;
+   &lt;/FeatureTypes&gt;
+   </urlReturnFileSchema>
+   <methodReturnFileType>XML</methodReturnFileType>
+   <urlReturnFileType>XML</urlReturnFileType>
+   <outAttributes>
+      <name>CssParameter</name>
+      <label>CssParameter</label>
+      <type>string</type>
+	   <description>gssp color</description>
+   </outAttributes>
+   <outAttributes>
+      <name>Literal</name>
+      <label>Literal</label>
+      <type>string</type>
+	   <description>gssp name</description>
+   </outAttributes>
+</resource>

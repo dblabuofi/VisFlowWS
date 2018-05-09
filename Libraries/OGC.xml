@@ -1,0 +1,26 @@
+<library>
+    <id>1b9c52c1-f90f-46d5-9911-ff8810f6d4f6</id>
+	<type>library</type>
+    <libraryName>OGC</libraryName>
+	<libraryType>web</libraryType>
+    <organization>OGC</organization>
+    <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\Data\</location>
+	<alias></alias>
+    <description>
+	OGC Network&#8482; is a window onto the dynamic, constantly changing geospatial web as described by the OGC&#174; Reference Model (ORM). Multiple communities of interest for research in geospatial interoperability are supported, and persistent demonstration capability is provided. Here you will find the latest information on OGC-compatible software, services, and information models (e.g. GML profiles, SLD examples, etc.). 
+    </description>
+	<function>
+		<functionName>OGC GetMap</functionName>
+		<functionId>2b63d885-3c58-43eb-b6e6-e26ba49987d0</functionId>
+		<description>
+			The OGC Web Map Service (WMS) specification defines an HTTP interface for requesting georeferenced map images from a server. GeoServer supports WMS 1.1.1, the most widely used version of WMS, as well as WMS 1.3.0.
+        </description>
+	</function>
+	<function>
+		<functionName>OGC GetStyle</functionName>
+		<functionId>cb6c3787-32e8-4594-b833-bdbaa287342a</functionId>
+		<description>
+			Get Styles Information
+        </description>
+	</function>
+</library>

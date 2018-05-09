@@ -1,0 +1,75 @@
+	<function>
+		<type>function</type>
+        <libraryName>Burrows-Wheeler Aligner</libraryName>
+		<libraryId>6085465b-9188-448d-af95-75091fb88fb6</libraryId>
+        <organization>Wellcome Trust Sanger Institute</organization>
+		<id>772e1c3c-aac5-486e-96bc-785c5b3bd801</id>
+		<functionName>bwa.exe</functionName>
+		<functionType>cmd executable</functionType>
+        <location>C:\cygwin64\home\jupiter\bwa\</location>
+        <description>
+			Burrows-Wheeler Aligner function
+        </description>
+		<aggregateName>BWA-functions</aggregateName>
+		<urlReturnFileType/>
+		<attributes>
+			<label>index</label>
+			<name>index</name>
+			<type>FILE</type>
+			<value></value>
+			<required>false</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>ref.fa</example>
+			<description>fa type file</description>
+			<from>default</from>
+		</attributes>
+		<attributes>
+			<label>mem</label>
+			<name>mem</name>
+			<type>FILES</type>
+			<value></value>
+			<required>false</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>ref.fa</example>
+			<description>fa type file</description>
+			<from>default</from>
+		</attributes>
+		<attributes>
+			<label>aln</label>
+			<name>aln</name>
+			<type>FILES</type>
+			<value></value>
+			<required>false</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>ref.fa</example>
+			<description>fa type file</description>
+			<from>default</from>
+		</attributes>
+		<attributes>
+			<label>samse</label>
+			<name>samse</name>
+			<type>FILES</type>
+			<value></value>
+			<required>false</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>ref.fa</example>
+			<description>fa type file</description>
+			<from>default</from>
+		</attributes>
+		<attributes>
+			<label>bwasw</label>
+			<name>bwasw</name>
+			<type>FILES</type>
+			<value></value>
+			<required>false</required>
+			<shown>true</shown>
+			<attributeType>input</attributeType>
+			<example>ref.fa</example>
+			<description>fa type file</description>
+			<from>default</from>
+		</attributes>
+	</function>

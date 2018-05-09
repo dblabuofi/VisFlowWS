@@ -1,0 +1,20 @@
+<resource>
+        <id>fe2c9141-81d4-481c-a116-910278415887</id>
+        <resourceType>Other</resourceType>
+        <organization>UI database team</organization>
+        <fileName>P1.R1.fastq.gz</fileName>
+        <resourceName>P1.R1.fastq.gz</resourceName>
+		<description>
+		DNA
+		</description>
+		<url/>
+		<aggregateName>BIO-databases</aggregateName>
+		<methodReturnFileType>gz</methodReturnFileType>
+		<urlReturnFileType>gz</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;P1.R1.fastq.gz&gt;
+			&lt;/P1.R1.fastq.gz&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+</resource>

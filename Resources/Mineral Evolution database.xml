@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>53730fd6-c0b1-4bd0-b8c8-f60592960d7d</id>
+   <resourceType>HTTP</resourceType>
+   <organization>u of Arizona</organization>
+   <fileName>Mineral Evolution database.xml</fileName>
+   <resourceName>Mineral Evolution database</resourceName>
+   <description>Mineral Evolution database</description>
+   <aggregateName>Mineral-database</aggregateName>
+   <urlReturnFileName/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;mineral-database&gt;&lt;/mineral-database&gt;</urlReturnFileSchema>
+   <methodReturnFileType>HTML</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <url>http://rruff.info/mineral_list/element_match.php</url>
+   <urlExmaple>http://rruff.info/mineral_list/element_match.php?focus=H</urlExmaple>
+   <suggestOutputFileName>mineral.csv</suggestOutputFileName>
+   <method>GET</method>
+   <attributes>
+      <label>focus</label>
+      <name>focus</name>
+      <type>String</type>
+      <value></value>
+      <required>TRUE</required>
+      <shown>TRUE</shown>
+      <attributeType>input</attributeType>
+      <example>H</example>
+      <description>mineral element</description>
+      <from>default</from>
+   </attributes>
+   <outAttributes>
+      <name>mineral-database</name>
+      <label>mineral-database</label>
+      <type></type>
+      <description></description>
+   </outAttributes>
+</resource>

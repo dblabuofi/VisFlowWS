@@ -1,0 +1,32 @@
+ <resource>
+        <id>f256aaa5-c2f3-4efe-831c-b821994265eb</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>proteinCodingGene.csv</resourceName>
+        <fileName>proteinCodingGene.csv</fileName>
+		<url/>
+		<description>
+		proteinCodingGene
+		</description>
+		<aggregateName>GENE-resources</aggregateName>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;proteinCodingGene&gt;
+					&lt;Gene&gt;&lt;/Gene&gt;
+					&lt;p63Binding&gt;&lt;/p63Binding&gt;
+			&lt;/proteinCodingGene&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<outAttributes>
+			<label>Gene</label>
+			<name>Gene</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>p63Binding</label>
+			<name>p63Binding</name>
+			<type>string</type>
+		</outAttributes>
+</resource>

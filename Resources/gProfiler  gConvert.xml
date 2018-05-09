@@ -1,0 +1,134 @@
+ <resource>
+        <id>42d48eee-3098-473b-b079-7f97cca0ea76</id>
+        <resourceType>HTTP</resourceType>
+        <organization>g:Profiler</organization>
+        <resourceName>gConvert</resourceName>
+		<fileName>gProfiler gConvert.xml</fileName>
+		<aggregateName>gProfiler-webservices</aggregateName>
+		<description>
+		g:Convert is a gene ID mapping tool that allows conversion of genes, proteins, microarray probes, standard names, various database identifiers, etc. A mix of IDs of different types may be inserted to g:Convert. The user needs to select a target database; all input IDs will be converted into target database format. Input IDs that have no corresponding entry in target database will be displayed as N/A. 
+		</description>
+		<url>http://biit.cs.ut.ee/gprofiler/gconvert.cgi</url>
+		<urlExample>http://biit.cs.ut.ee/gprofiler/gconvert.cgi?organism=hsapiens&amp;target=AFFY_HG_U133_PLUS_2&amp;query=POU5F1+SOX2+NANOG</urlExample>
+		<suggestOutputFileName>gprofilerRes.csv</suggestOutputFileName>
+		<method>GET</method>
+		<attributes>
+			<label>Organism</label>
+			<name>organism</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example></example>
+			<attributeType>selection</attributeType>
+			<selectionpair><label>Homo sapiens</label><value>hsapiens</value></selectionpair>
+			<selectionpair><label>Saccharomyces cerevisiae</label><value>scerevisiae</value></selectionpair>
+			<selectionpair><label>Mus musculus</label><value>mmusculus</value></selectionpair>
+			<description>This parameter shows to which organism the genes proteins and probes in input query belong.</description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>target database</label>
+			<name>target</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example></example>
+			<attributeType>selection</attributeType>
+			<selectionpair><label>AFFY_HG_U133_PLUS_2</label><value>AFFY_HG_U133_PLUS_2</value></selectionpair>
+			<selectionpair><label>REFSEQ_MRNA</label><value>REFSEQ_MRNA</value></selectionpair>
+			<selectionpair><label>ARRAYEXPRESS</label><value>ARRAYEXPRESS</value></selectionpair>
+			<description>Given a set of valid IDs for genes, probes or proteins, g:Convert converts the set into target database format. </description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>Query</label>
+			<name>query</name>
+			<value></value>
+			<type>string</type>
+			<required>true</required>
+			<shown>true</shown>
+			<example>POU5F1+SOX2+NANOG</example>
+			<attributeType>input</attributeType>
+			<description>It contains one or more genes (proteins, transcripts, microarray probeset IDs, etc) or a selected organism. </description>
+			<from>input</from>
+		</attributes>
+		<attributes>
+			<label>Output type</label>
+			<name>output</name>
+			<value>html</value>
+			<type>string</type>
+			<required>true</required>
+			<shown>false</shown>
+			<description>print a nice format to extract data</description>
+			<from>default</from>
+		</attributes>
+		<outAttributes>
+			<label>G#</label>
+			<name>G#</name>
+			<type>string</type>
+			<description>G#</description>
+		</outAttributes>
+		<outAttributes>
+			<label>Initial alias</label>
+			<name>Initial alias</name>
+			<type>string</type>
+			<description>initial alias</description>
+		</outAttributes>
+		<outAttributes>
+			<label>C#</label>
+			<name>C#</name>
+			<type>string</type>
+			<description>C#</description>
+		</outAttributes>
+		<outAttributes>
+			<label>converted alias</label>
+			<name>converted alias</name>
+			<type>string</type>
+			<description>converted alias</description>
+		</outAttributes>
+		<outAttributes>
+			<label>name</label>
+			<name>name</name>
+			<type>string</type>
+			<description>name</description>
+		</outAttributes>
+		<outAttributes>
+			<label>description</label>
+			<name>description</name>
+			<type>string</type>
+			<description>description</description>
+		</outAttributes>
+		<outAttributes>
+			<label>namespace</label>
+			<name>namespace</name>
+			<type>string</type>
+			<description>namespace</description>
+		</outAttributes>
+		<methodReturnFileType>HTML</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;gProfiler&#x20;gConvert&gt;
+				&lt;G#&gt;&lt;/G#&gt;
+				&lt;Initial&#x20;alias&gt;&lt;/Initial&#x20;alias&gt;
+				&lt;C#&gt;&lt;/C#&gt;
+				&lt;converted&#x20;alias&gt;&lt;/converted&#x20;alias&gt;
+				&lt;name&gt;&lt;/name&gt;
+				&lt;description&gt;&lt;/description&gt;
+				&lt;namespace&gt;&lt;/namespace&gt;
+			&lt;/gProfiler&#x20;gConvert&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+		<location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<wrapper>
+			<wrapperName>myTableExactor</wrapperName>
+			<headers>G#</headers>
+			<headers>Initial alias</headers>
+			<headers>C#</headers>
+			<headers>converted alias</headers>
+			<headers>name</headers>
+			<headers>description</headers>
+			<headers>namespace</headers>
+		</wrapper>
+</resource>

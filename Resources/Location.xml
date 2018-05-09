@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>71341f27-869c-41ed-a63e-b742e14cc0a2</id>
+   <resourceType>CSV</resourceType>
+   <organization>u of idaho</organization>
+   <fileName>Location.csv</fileName>
+   <resourceName>Location.csv</resourceName>
+   <description>location information</description>
+   <aggregateName>EMPLOYEE-databases</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;location&gt;&lt;id&gt;&lt;/id&gt;&lt;street&gt;&lt;/street&gt;&lt;city&gt;&lt;/city&gt;&lt;state&gt;&lt;/state&gt;&lt;country&gt;&lt;/country&gt;&lt;/location&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>id</name>
+      <label>id</label>
+      <type>int</type>
+      <description>identifier</description>
+   </outAttributes>
+   <outAttributes>
+      <name>street</name>
+      <label>street</label>
+      <type>string</type>
+      <description>street information</description>
+   </outAttributes>
+   <outAttributes>
+      <name>city</name>
+      <label>city</label>
+      <type>string</type>
+      <description>city where living</description>
+   </outAttributes>
+   <outAttributes>
+      <name>state</name>
+      <label>state</label>
+      <type>string</type>
+      <description>state of country</description>
+   </outAttributes>
+   <outAttributes>
+      <name>country</name>
+      <label>country</label>
+      <type>string</type>
+      <description>country where living</description>
+   </outAttributes>
+</resource>

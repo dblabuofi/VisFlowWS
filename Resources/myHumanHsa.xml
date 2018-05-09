@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>77ee6da4-0e98-4742-8009-f4fa441ffda5</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>myHumanHsa.csv</fileName>
+   <resourceName>myHumanHsa.csv</resourceName>
+   <description></description>
+   <urlReturnFileName/>
+   <aggregateName>GENE-resources</aggregateName>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;human&amp;#x20;hsa&gt;&lt;&amp;#x20;gene&gt;&lt;/&amp;#x20;gene&gt;&lt;/human&amp;#x20;hsa&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name> gene</name>
+      <label> gene</label>
+      <type>int</type>
+      <description>human gene number</description>
+   </outAttributes>
+</resource>

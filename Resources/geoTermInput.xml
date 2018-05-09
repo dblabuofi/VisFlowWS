@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+   <id>7e6ebb08-804a-4b4f-a299-f4f65dbf675c</id>
+   <resourceType>CSV</resourceType>
+   <organization></organization>
+   <fileName>geoTermInput.csv</fileName>
+   <resourceName>geoTermInput.csv</resourceName>
+   <description></description>
+   <aggregateName>GeoTime-resources</aggregateName>
+   <urlReturnFileName/>
+   <url/>
+   <location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+   <urlReturnFileSchema>&lt;Geo&amp;#x20;Time&gt;&lt;name&gt;&lt;/name&gt;&lt;max&gt;&lt;/max&gt;&lt;min&gt;&lt;/min&gt;&lt;/Geo&amp;#x20;Time&gt;</urlReturnFileSchema>
+   <methodReturnFileType>CSV</methodReturnFileType>
+   <urlReturnFileType>CSV</urlReturnFileType>
+   <outAttributes>
+      <name>name</name>
+      <label>name</label>
+      <type>string</type>
+      <description>geo time term</description>
+   </outAttributes>
+   <outAttributes>
+      <name>max</name>
+      <label>max</label>
+      <type>double</type>
+      <description>max ma</description>
+   </outAttributes>
+   <outAttributes>
+      <name>min</name>
+      <label>min</label>
+      <type>double</type>
+      <description>min ma</description>
+   </outAttributes>
+</resource>

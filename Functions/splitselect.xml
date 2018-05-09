@@ -1,0 +1,75 @@
+<function>
+	<type>function</type>
+	<libraryName>Split function</libraryName>
+	<libraryId>82bc6259-8720-4be6-9a62-36912b838167</libraryId>
+	<organization>University of Idaho</organization>
+	<id>800ddc78-bae7-409c-b1dc-ab5b4cc28d53</id>
+	<functionName>splitselect.py</functionName>
+	<functionType>python executable</functionType>
+	<location>C:\Users\jupiter\Documents\NetBeansProjects\AutoInterfaceWS\data\</location>
+	<description>
+		splite an attribute
+    </description>
+	<aggregateName>COL-functions</aggregateName>
+	<attributes>
+		<label>outFile</label>
+		<name>-outFile</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>sparqlQuery.csv</example>
+		<description>output file</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>inputFile</label>
+		<name>-inputFile</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>title.csv</example>
+		<description>Input File Name</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>attribute</label>
+		<name>-attribute</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>genes</example>
+		<description>Input File Name</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>actionInput</label>
+		<name>-actionInput</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>ncib-geneid</example>
+		<description>Input</description>
+		<from>default</from>
+	</attributes>
+	<attributes>
+		<label>name</label>
+		<name>-name</name>
+		<type>String</type>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<attributeType>input</attributeType>
+		<example>ncbigeneid</example>
+		<description>attribute new name</description>
+		<from>default</from>
+	</attributes>
+	<urlReturnFileType>csv</urlReturnFileType>
+</function>

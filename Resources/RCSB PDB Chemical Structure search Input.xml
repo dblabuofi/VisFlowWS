@@ -1,0 +1,38 @@
+ <resource>
+        <id>RCSB PDB Chemical Structure search Input</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>RCSB PDB Chemical Structure search Input.csv</resourceName>
+        <fileName>RCSB PDB Chemical Structure search Input.csv</fileName>
+		<url/>
+		<description>
+		RCSB PDB Chemical Structure search Input
+		</description>
+		<aggregateName>BIO-databases</aggregateName>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;RCSB&#x20;PDB&#x20;Chemical&#x20;Structure&#x20;search&#x20;Input&gt;
+					&lt;smiles&gt;&lt;/smiles&gt;
+					&lt;search_type&gt;&lt;/search_type&gt;
+					&lt;similarity&gt;&lt;/similarity&gt;
+			&lt;/RCSB&#x20;PDB&#x20;Chemical&#x20;Structure&#x20;search&#x20;Input&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<outAttributes>
+			<label>smiles</label>
+			<name>smiles</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>search_type</label>
+			<name>search_type</name>
+			<type>string</type>
+		</outAttributes>
+		<outAttributes>
+			<label>similarity</label>
+			<name>similarity</name>
+			<type>string</type>
+		</outAttributes>
+</resource>

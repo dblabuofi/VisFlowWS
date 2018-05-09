@@ -1,0 +1,27 @@
+ <resource>
+        <id>32722a16-c545-4e62-9c09-6129a58157fc</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>humangenes.csv</resourceName>
+        <fileName>humangenes.csv</fileName>
+		<url/>
+		<description>
+		human genes id
+		</description>
+		<aggregateName>GENE-resources</aggregateName>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;human&#x20;genes&gt;
+					&lt;gene&gt;&lt;/gene&gt;
+			&lt;/human&#x20;genes&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+		<outAttributes>
+			<label>gene</label>
+			<name>gene</name>
+			<type>string</type>
+			<description>human gene description</description>
+		</outAttributes>
+</resource>

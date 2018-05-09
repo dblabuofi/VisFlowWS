@@ -1,0 +1,55 @@
+<resource>
+	<id>32436d64-d5d4-4eea-9272-7fbe554a0cc5</id>
+	<resourceType>REST</resourceType>
+    <organization>Kanehisa Laboratories</organization>
+	<resourceName>GeneIdToHSAId</resourceName>
+	<fileName>KEGG ncbi-geneid to hsa.xml</fileName>
+    <description>
+		convert ncbi-geneid to hsa id
+    </description>
+	<url>http://rest.kegg.jp/conv/hsa/{ncbi}</url>
+	<aggregateName>KEGG-databases</aggregateName>
+	<urlExample>http://rest.kegg.jp/conv/hsa/ncbi-geneid:217</urlExample>
+	<suggestOutputFileName>kegghsa.csv</suggestOutputFileName>
+	<method>REST</method>
+	<attributes>
+		<label>ncbi</label>
+		<name>ncbi</name>
+		<value></value>
+		<required>true</required>
+		<shown>true</shown>
+		<example>ncbi-geneid:217</example>
+		<attributeType>input</attributeType>
+		<description>ncbi-geneid</description>
+		<from>default</from>
+	</attributes>
+	<outAttributes>
+		<label>ncbi</label>
+		<name>ncbi</name>
+		<type>string</type>
+		<description>ncbi id</description>
+	</outAttributes>
+	<outAttributes>
+		<label>hsa</label>
+		<name>hsa</name>
+		<type>string</type>
+		<description>hsa id</description>
+	</outAttributes>
+	<methodReturnFileType>TEXT</methodReturnFileType>
+	<urlReturnFileType>CSV</urlReturnFileType>
+	<urlReturnFileSchema>
+		&lt;KEGG&#x20;ncbi&#x20;to&#x20;hsa&gt;
+			&lt;ncbi&gt;&lt;/ncbi&gt;
+			&lt;hsa&gt;&lt;/hsa&gt;
+		&lt;/KEGG&#x20;ncbi&#x20;to&#x20;hsa&gt;
+	</urlReturnFileSchema>
+	<urlReturnFileName></urlReturnFileName>
+    <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+	<wrapper>
+			<wrapperName>textTableWrapper</wrapperName>
+			<separator>\t</separator>
+			<headers>ncbi</headers>
+			<headers>hsa</headers>
+			<resultContainHeaderInfo>false</resultContainHeaderInfo>
+	</wrapper>
+</resource>

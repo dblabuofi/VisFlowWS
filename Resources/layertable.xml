@@ -1,0 +1,20 @@
+ <resource>
+        <id>1110fcff-4c6d-4a61-9f44-90a0dd6bfa4a</id>
+        <resourceType>CSV</resourceType>
+        <organization>UI database team</organization>
+        <resourceName>layertable.csv</resourceName>
+        <fileName>layertable.csv</fileName>
+		<description>
+		layertable 
+		</description>
+		<aggregateName>GSSP-databases</aggregateName>
+		<url/>
+        <methodReturnFileType>CSV</methodReturnFileType>
+		<urlReturnFileType>CSV</urlReturnFileType>
+		<urlReturnFileSchema>
+			&lt;layertable&gt;
+			&lt;/layertable&gt;
+		</urlReturnFileSchema>
+		<urlReturnFileName></urlReturnFileName>
+        <location>C:/Users/jupiter/Documents/NetBeansProjects/AutoInterfaceWS/data/</location>
+</resource>
